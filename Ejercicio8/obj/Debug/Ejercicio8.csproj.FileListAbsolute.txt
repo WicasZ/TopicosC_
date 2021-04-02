@@ -1,0 +1,10 @@
+C:\Users\WillH\Documents\C_\Ejercicio8\bin\Debug\Ejercicio8.exe.config
+C:\Users\WillH\Documents\C_\Ejercicio8\bin\Debug\Ejercicio8.exe
+C:\Users\WillH\Documents\C_\Ejercicio8\bin\Debug\Ejercicio8.pdb
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.csprojAssemblyReference.cache
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.Form1.resources
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.Properties.Resources.resources
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.csproj.GenerateResource.cache
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.csproj.CoreCompileInputs.cache
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.exe
+C:\Users\WillH\Documents\C_\Ejercicio8\obj\Debug\Ejercicio8.pdb

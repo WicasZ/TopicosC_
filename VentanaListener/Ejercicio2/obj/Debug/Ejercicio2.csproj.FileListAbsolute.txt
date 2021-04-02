@@ -1,0 +1,10 @@
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.csprojAssemblyReference.cache
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.Properties.Resources.resources
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.csproj.GenerateResource.cache
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.pdb
+C:\Users\WillH\Documents\C_\VentanaListener\Ejercicio2\obj\Debug\Ejercicio2.Ventana.resources
