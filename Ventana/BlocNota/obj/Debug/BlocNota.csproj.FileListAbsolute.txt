@@ -7,3 +7,13 @@ C:\Users\WillH\Documents\C_\Ventana\BlocNota\obj\Debug\BlocNota.csproj.GenerateR
 C:\Users\WillH\Documents\C_\Ventana\BlocNota\obj\Debug\BlocNota.csproj.CoreCompileInputs.cache
 C:\Users\WillH\Documents\C_\Ventana\BlocNota\obj\Debug\BlocNota.exe
 C:\Users\WillH\Documents\C_\Ventana\BlocNota\obj\Debug\BlocNota.pdb
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\bin\Debug\BlocNota.exe.config
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\bin\Debug\BlocNota.exe
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\bin\Debug\BlocNota.pdb
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.VentanaBloc.resources
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.Properties.Resources.resources
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.exe
+C:\Users\LENOVO\Documents\C#\TopicosC_\Ventana\BlocNota\obj\Debug\BlocNota.pdb

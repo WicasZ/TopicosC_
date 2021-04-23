@@ -30,16 +30,17 @@ namespace BlocNota
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_color = new System.Windows.Forms.Button();
-            this.btn_comilas = new System.Windows.Forms.Button();
-            this.btn_tamaño = new System.Windows.Forms.Button();
-            this.btn_abrir = new System.Windows.Forms.Button();
-            this.btn_salir = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.btn_abrir = new System.Windows.Forms.Button();
+            this.btn_tamaño = new System.Windows.Forms.Button();
+            this.btn_comilas = new System.Windows.Forms.Button();
+            this.btn_color = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txt_out = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbl_historial = new System.Windows.Forms.Label();
+            this.combotamaño = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -47,53 +48,25 @@ namespace BlocNota
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.combotamaño);
             this.panel1.Controls.Add(this.btn_guardar);
             this.panel1.Controls.Add(this.btn_salir);
             this.panel1.Controls.Add(this.btn_abrir);
             this.panel1.Controls.Add(this.btn_tamaño);
-            this.panel1.Controls.Add(this.btn_comilas);
             this.panel1.Controls.Add(this.btn_color);
             this.panel1.Location = new System.Drawing.Point(4, 4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(510, 31);
             this.panel1.TabIndex = 0;
             // 
-            // btn_color
+            // btn_guardar
             // 
-            this.btn_color.Location = new System.Drawing.Point(8, 5);
-            this.btn_color.Name = "btn_color";
-            this.btn_color.Size = new System.Drawing.Size(75, 21);
-            this.btn_color.TabIndex = 1;
-            this.btn_color.Text = "Color";
-            this.btn_color.UseVisualStyleBackColor = true;
-            this.btn_color.Click += new System.EventHandler(this.btn_color_Click);
-            // 
-            // btn_comilas
-            // 
-            this.btn_comilas.Location = new System.Drawing.Point(91, 4);
-            this.btn_comilas.Name = "btn_comilas";
-            this.btn_comilas.Size = new System.Drawing.Size(75, 22);
-            this.btn_comilas.TabIndex = 2;
-            this.btn_comilas.Text = "Comillas";
-            this.btn_comilas.UseVisualStyleBackColor = true;
-            // 
-            // btn_tamaño
-            // 
-            this.btn_tamaño.Location = new System.Drawing.Point(175, 4);
-            this.btn_tamaño.Name = "btn_tamaño";
-            this.btn_tamaño.Size = new System.Drawing.Size(75, 22);
-            this.btn_tamaño.TabIndex = 3;
-            this.btn_tamaño.Text = "Tamaño";
-            this.btn_tamaño.UseVisualStyleBackColor = true;
-            // 
-            // btn_abrir
-            // 
-            this.btn_abrir.Location = new System.Drawing.Point(260, 4);
-            this.btn_abrir.Name = "btn_abrir";
-            this.btn_abrir.Size = new System.Drawing.Size(75, 22);
-            this.btn_abrir.TabIndex = 4;
-            this.btn_abrir.Text = "Abrir";
-            this.btn_abrir.UseVisualStyleBackColor = true;
+            this.btn_guardar.Location = new System.Drawing.Point(430, 4);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(75, 22);
+            this.btn_guardar.TabIndex = 6;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
             // btn_salir
             // 
@@ -105,18 +78,49 @@ namespace BlocNota
             this.btn_salir.UseVisualStyleBackColor = true;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
-            // btn_guardar
+            // btn_abrir
             // 
-            this.btn_guardar.Location = new System.Drawing.Point(430, 4);
-            this.btn_guardar.Name = "btn_guardar";
-            this.btn_guardar.Size = new System.Drawing.Size(75, 22);
-            this.btn_guardar.TabIndex = 6;
-            this.btn_guardar.Text = "Guardar";
-            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_abrir.Location = new System.Drawing.Point(260, 4);
+            this.btn_abrir.Name = "btn_abrir";
+            this.btn_abrir.Size = new System.Drawing.Size(75, 22);
+            this.btn_abrir.TabIndex = 4;
+            this.btn_abrir.Text = "Abrir";
+            this.btn_abrir.UseVisualStyleBackColor = true;
+            // 
+            // btn_tamaño
+            // 
+            this.btn_tamaño.Location = new System.Drawing.Point(175, 4);
+            this.btn_tamaño.Name = "btn_tamaño";
+            this.btn_tamaño.Size = new System.Drawing.Size(75, 22);
+            this.btn_tamaño.TabIndex = 3;
+            this.btn_tamaño.Text = "Tamaño";
+            this.btn_tamaño.UseVisualStyleBackColor = true;
+            this.btn_tamaño.Click += new System.EventHandler(this.btn_tamaño_Click);
+            // 
+            // btn_comilas
+            // 
+            this.btn_comilas.Location = new System.Drawing.Point(175, -5);
+            this.btn_comilas.Name = "btn_comilas";
+            this.btn_comilas.Size = new System.Drawing.Size(75, 22);
+            this.btn_comilas.TabIndex = 2;
+            this.btn_comilas.Text = "Comillas";
+            this.btn_comilas.UseVisualStyleBackColor = true;
+            this.btn_comilas.Click += new System.EventHandler(this.btn_comilas_Click);
+            // 
+            // btn_color
+            // 
+            this.btn_color.Location = new System.Drawing.Point(8, 5);
+            this.btn_color.Name = "btn_color";
+            this.btn_color.Size = new System.Drawing.Size(75, 21);
+            this.btn_color.TabIndex = 1;
+            this.btn_color.Text = "Color";
+            this.btn_color.UseVisualStyleBackColor = true;
+            this.btn_color.Click += new System.EventHandler(this.btn_color_Click);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.txt_out);
+            this.panel2.Controls.Add(this.btn_comilas);
             this.panel2.Location = new System.Drawing.Point(4, 41);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(510, 511);
@@ -133,7 +137,7 @@ namespace BlocNota
             // panel3
             // 
             this.panel3.Controls.Add(this.lbl_historial);
-            this.panel3.Location = new System.Drawing.Point(4, 559);
+            this.panel3.Location = new System.Drawing.Point(3, 558);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(510, 24);
             this.panel3.TabIndex = 2;
@@ -145,6 +149,16 @@ namespace BlocNota
             this.lbl_historial.Name = "lbl_historial";
             this.lbl_historial.Size = new System.Drawing.Size(0, 13);
             this.lbl_historial.TabIndex = 0;
+            // 
+            // combotamaño
+            // 
+            this.combotamaño.FormattingEnabled = true;
+            this.combotamaño.Location = new System.Drawing.Point(94, 5);
+            this.combotamaño.Name = "combotamaño";
+            this.combotamaño.Size = new System.Drawing.Size(75, 21);
+            this.combotamaño.TabIndex = 1;
+            this.combotamaño.Text = "-Tamaño-";
+            this.combotamaño.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // VentanaBloc
             // 
@@ -178,6 +192,7 @@ namespace BlocNota
         private System.Windows.Forms.TextBox txt_out;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lbl_historial;
+        private System.Windows.Forms.ComboBox combotamaño;
     }
 }
 

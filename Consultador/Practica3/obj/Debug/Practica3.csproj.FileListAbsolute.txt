@@ -1,0 +1,10 @@
+C:\Users\LENOVO\source\repos\Consultador\Practica3\bin\Debug\Practica3.exe.config
+C:\Users\LENOVO\source\repos\Consultador\Practica3\bin\Debug\Practica3.exe
+C:\Users\LENOVO\source\repos\Consultador\Practica3\bin\Debug\Practica3.pdb
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.Vnt_consultador.resources
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.exe
+C:\Users\LENOVO\source\repos\Consultador\Practica3\obj\Debug\Practica3.pdb
